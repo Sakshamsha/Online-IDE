@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #0D0C0C;
+  color: #fff;
+}
+
+html{
+  overflow-x: hidden;
+  /* background-color: ; */
+}
+
+.inputBox{
+  width: 100%;
+  background-color: #141414;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.inputBox input{
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+}
+
+.btnBlue{
+  background-color: #00AEEF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+.btnBlue:hover{
+  background-color: #0086b3;
+}
+
+.grid{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 15px;
+}
+
+.lightMode{
+  background-color: #fff;
+  color: #000;
+}
+
+.lightMode .navbar{
+  background-color: #cbc8c8;
+}
+
+.lightMode .EditorNavbar{
+  background-color: #d0d0d0;
+}
+
+.lightMode .dropDown{
+  background-color: #cbc8c8;
+}
+.lightMode .back{
+  background-color: #cbc8c8;
+}
+.lightMode .create{
+  background-color: #dede07;
+}
+
+.lightMode .search{
+  color: black;
+}
+.lightMode .mainModel{
+  background-color: #c99e7a;
+}
+.lightMode .createModal{
+  background-color: #c99e7a;
+}
+.lightMode .createModalInput{
+  background-color: #c99e7a; 
+}
+
+.lightMode .tabs{
+  background-color: #fff;
+}
+.lightMode .tab{
+  background-color: #e1e1e1;
+}
+
+.lightMode .listCard{
+  background-color: #cbc8c8;
+}
+
+.lightMode .gridCard{
+  background-color: #cbc8c8;
+}
+
+.lightMode .inputBox{
+  background-color: #cbc8c8;
+}
+
+.hello{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/pexels-karolina-grabowska-5904075.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
+
+.section{
+  max-width: 900px;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.head{
+  font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.featureGrid{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.featureCard{
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
