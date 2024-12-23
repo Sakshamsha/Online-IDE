@@ -5,7 +5,7 @@ const cors = require("cors");
 
 
 app.use(cors({
-    origin:"http://localhost:3000"
+    origin:"https://online-id-saksham.vercel.app"
 }));
 app.use(express.json());
 
