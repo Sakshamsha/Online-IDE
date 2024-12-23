@@ -8,6 +8,7 @@ app.use(cors({
     origin:"https://online-id-saksham.vercel.app"
 }));
 app.use(express.json());
+app.use(express.urlencoded({extended:true}));
 
 const userRoute = require("./routes/userRoute");
 const projectRoute = require("./routes/projectRoute");
