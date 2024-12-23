@@ -5,7 +5,7 @@ const cors = require("cors");
 
 
 app.use(cors({
-    origin:"https://online-id-saksham.vercel.app"
+    origin:"https://online-ide-saksham.vercel.app"
 }));
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
